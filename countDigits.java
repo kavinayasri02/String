@@ -1,0 +1,15 @@
+import java.util.*;
+public class countDigits {
+    public static void main(String[]args){
+        Scanner kavi = new Scanner(System.in);
+        String s = kavi.nextLine();
+        int count = 0;
+        for(int i = 0;i<s.length();i++){
+            char ch = s.charAt(i);
+            if(ch >= '0' && ch <= '9'){
+                count++;
+            }
+        }
+        System.out.print("Number of digits in the String is :" + count);
+    }
+}
