@@ -14,3 +14,6 @@ public class RemovepartChar {
     System.out.print("String after removal of a particular character : " + res);
     }
 }
+Otp : Kavinayasri
+    a
+    kvinysr
