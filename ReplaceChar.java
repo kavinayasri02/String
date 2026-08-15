@@ -17,3 +17,7 @@ public class ReplaceChar {
         System.out.print("String After replacing the Character :" + res);
     }
 }
+Otp : Kavinayasri
+    a
+    e
+    kevineyesri
