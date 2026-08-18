@@ -21,3 +21,27 @@ public class PrintUniqueChar {
 }
 otp : Kavinayasri
     k v n y s r
+
+
+    Using HashSet Method 
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class DuplicateCharactersSet {
+    public static void main(String[] args) {
+        String str = "javaae";
+        
+        Set<Character> seen = new HashSet<>();
+        Set<Character> duplicates = new HashSet<>();
+
+        for (char ch : str.toCharArray()) {
+            // If the character cannot be added, it's a duplicate
+            if (!seen.add(ch)) {
+                duplicates.add(ch);
+            }
+        }
+
+        System.out.println("Duplicate characters: " + duplicates);
+    }
+}
