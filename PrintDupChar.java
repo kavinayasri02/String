@@ -25,3 +25,6 @@ public static void printDuplicates(String k){
     }
 }
 }
+otp : Kavinayasri 
+    a appears 3 times
+    i appears 2 times
